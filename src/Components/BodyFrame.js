@@ -1,6 +1,12 @@
+import MainContent from './MainContent'
+import ComponenteTabla from './ComponenteTabla'
+
+
 const BodyFrame = () => {
     return (
         <div>
+            <MainContent />
+            <ComponenteTabla/>
         </div>
     );
 }

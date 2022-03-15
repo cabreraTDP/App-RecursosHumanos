@@ -1,9 +1,10 @@
 import NavBar from "./NavBar"
 import ProfileBar from "./ProfileBar"
+import '../style/HeaderContent.css';
 
 const HeaderContent = () => {
     return (
-        <div>
+        <div id="menu">
             <NavBar/>
             <ProfileBar/>
         </div>
