@@ -1,6 +1,7 @@
 const SideBar = () => {
     return (
-        <div>
+        <div className="inline">
+            <h1>SideBar</h1>
         </div>
     );
 }

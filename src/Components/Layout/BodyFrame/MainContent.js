@@ -1,6 +1,7 @@
 const MainContent = () => {
     return (
-        <div>
+        <div className="inline">
+            <h1>Main Content</h1>
         </div>
     );
 }

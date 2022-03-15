@@ -1,11 +1,13 @@
 import './App.css';
-import PlainBackground from './Components/PlainBackground'
+import PlainBackground from './Components/Layout/PlainBackground'
 
 function App() {
   return (
     <div className="App">
+
         <PlainBackground/>
-    </div>
+        </div>
+
   );
 }
 

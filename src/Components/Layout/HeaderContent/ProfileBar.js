@@ -1,6 +1,7 @@
 const ProfileBar = () => {
     return (
-        <div>
+        <div className="inline">
+            ProfileBar
         </div>
     );
 }
