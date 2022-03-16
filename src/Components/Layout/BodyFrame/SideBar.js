@@ -1,7 +1,14 @@
+import CandidatoInfo from './CandidatoInfo';
+import VacanteInfo from './VacanteInfo';
+import RateInfo from './RateInfo';
+
+
 const SideBar = () => {
     return (
-        <div className="inline">
-            <h1>SideBar</h1>
+        <div className="" style={{ backgroundColor:'#d5d3e5', borderRadius: '30px'}}>
+            <CandidatoInfo/>
+            <VacanteInfo/>
+            <RateInfo/>
         </div>
     );
 }
