@@ -54,7 +54,8 @@
     grid-column: 1 / 2;
     height: 100%;
     position: relative;
-    border: 2px solid red
+    background-color: #e5e5e5;
+
   }
 
   .header-profilebar{
