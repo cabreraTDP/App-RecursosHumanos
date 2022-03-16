@@ -1,7 +1,15 @@
+import heb from './/yo.jpg'
+
 const ProfileBar = () => {
     return (
         <div className="inline">
-            ProfileBar
+            <div style={{ lineHeight: '70px', paddingLeft:'60%' }}>
+                Reclutador:
+            </div>
+            <div style={{ }}>
+            <img src={heb} alt="BigCo Inc. logo" style={{ width: '75px', height:'75px', borderRadius:'30px' }} />
+
+            </div>
         </div>
     );
 }

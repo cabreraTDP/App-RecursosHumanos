@@ -60,9 +60,10 @@
 
   .header-profilebar{
     grid-column: 2 / 3;
-    border: 2px solid red;
     height: 100%;
     position: relative;
+    background-color: #e5e5e5;
+
   }
 
   .content-sidebar{
@@ -70,13 +71,11 @@
     height: 100%;
     border: 2px solid green;
     position: relative;
-
   }
 
   .content-maincontent{
     grid-column: 2 / 3;
     height: 100%;
-    border: 2px solid green;
     position: relative;
 
 
