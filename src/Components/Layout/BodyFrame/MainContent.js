@@ -1,7 +1,15 @@
 const MainContent = () => {
     return (
         <div className="inline">
-            <h1>Main Content</h1>
+            <div style={{}}>
+            <h1 style={{color:'aqua',float:'left'}}>Candidatos en proceso</h1>
+        
+            <input type="text" placeholder="ingrese un parametro de busqueda" style={{
+                width:'30%',
+                height:'5%',
+                marginTop:'30px'
+            }}/>
+            </div>
         </div>
     );
 }

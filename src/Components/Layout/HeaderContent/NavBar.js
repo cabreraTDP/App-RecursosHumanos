@@ -4,7 +4,6 @@ const NavBar = () => {
     return (
         <div className="inline" style={{}}>
             <div >
-                <img src={heb} alt="BigCo Inc. logo" style={{ width: '300px', height:'80px' }} />
             </div>
             <div id='opcion-select'>
                 CANDIDATOS EN PROCESO
